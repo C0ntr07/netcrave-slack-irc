@@ -8,6 +8,9 @@ more details.
 
 `docker build -t netcrave/slack-irc -t netcrave/slack-irc:latest .`
 
+## Obtaining a legacy slack token 
+[https://api.slack.com/custom-integrations/legacy-tokens]
+
 ## Running 
 
 `docker run --restart=always -it -v /home/erratic/slack_irc:/config netcrave/slack-irc`
