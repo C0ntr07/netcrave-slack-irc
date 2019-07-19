@@ -1,7 +1,7 @@
 [
   {
-    "nickname":            "suckysucky",
-    "server":              "172.17.0.1",
+    "nickname":            "suckysucky", // Slack bot nickname
+    "server":              "172.17.0.1", // IP of ZNC Bouncer (defaults to port 6667.)
     "token":               "xoxp-xxxxxxxxxxxx-xxxxxxxxxxxx-xxxxxxxxxxxx-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
     "avatarUrl":           "https://robohash.org/$username.png?size=48x48",
     "slackUsernameFormat": "<$username>",
