@@ -37,3 +37,6 @@ To use the bouncer with Freenode you will most likely want to setup sasl authent
 ### Starting the container
 `docker run --restart=always -it -v /home/erratic/slack_irc:/config netcrave/slack-irc`
 
+### Troubleshooting 
+- Not connecting to ZNC? make sure your firewall is allowing it. Try disabling iptables and restarting docker so that only docker iptables rules are applied. ZNC can be tested with a normal IRC client like irssi, just point it to 172.17.0.1 and `/quote PASS nick/network password` but you may want to test this from irssi running in a container, also. 
+
