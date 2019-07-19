@@ -27,11 +27,11 @@ Check out the znc.conf.example included in this repository.
 ```
 with that your nick can be authenticated using the same password. To configure ZNC to automatically identify on connect you need to connect to the bouncer as your bot's user with an IRC client and follow the instructions: 
 
-- https://wiki.znc.in/Nickserv
+- [https://wiki.znc.in/Nickserv]
 
 To use the bouncer with Freenode you will most likely want to setup sasl authentication: 
 - [https://wiki.znc.in/Sasl#example]
-- https://freenode.net/kb/answer/sasl
+- [https://freenode.net/kb/answer/sasl]
 
 ### Starting the container
 `docker run --restart=always -it -v /home/erratic/slack_irc:/config netcrave/slack-irc`
