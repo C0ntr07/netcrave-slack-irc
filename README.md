@@ -13,5 +13,9 @@ more details.
 
 ## Running 
 
+### ZNC 
+Check out the znc.conf.example included in this repository 
+
+### Starting the container
 `docker run --restart=always -it -v /home/erratic/slack_irc:/config netcrave/slack-irc`
 
