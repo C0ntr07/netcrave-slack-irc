@@ -1,0 +1,39 @@
+[
+  {
+    "nickname":            "suckysucky",
+    "server":              "172.17.0.1",
+    "token":               "xoxp-xxxxxxxxxxxx-xxxxxxxxxxxx-xxxxxxxxxxxx-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+    "avatarUrl":           "https://robohash.org/$username.png?size=48x48",
+    "slackUsernameFormat": "<$username>",
+
+    "autoSendCommands":    [ 
+                           ],
+
+    "channelMapping":      { 
+      "#netcrave": "#netcrave" 
+                           },
+
+    "ircOptions":          { 
+                             "password":             "changeme_or_leave_blank", // ZNC password
+                             "nick":                 "suckysucky",              // ZNC nickname
+                             "userName":             "suckysucky",              // ZNC Username
+                             "floodProtection":      false,
+                             "floodProtectionDelay": 1000 
+                           },
+
+    "commandCharacters":   ["."],
+
+    "muteSlackbot":        true, // Off by default
+
+    "ircStatusNotices":    {
+      "join":                true, 
+      "leave":               true
+                           },
+
+    "muteUsers":           {
+                             "irc":   ["tr0n"],
+                             "slack": ["tr0n"]
+                           }
+
+  }
+]
